@@ -1,0 +1,11 @@
+.rolling 
+{display:flex;
+justify-content: center;}
+
+.rolling::after
+{
+    content: "  ";
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+}
